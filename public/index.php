@@ -41,6 +41,7 @@ $code = highlight_string('
 	$temp = sys_get_temp_dir();
 ?>',1);
 echo $code;
+print_r($_SERVER);
 ?>
 			<div>
 		</div>
